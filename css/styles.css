@@ -451,7 +451,6 @@ textarea {
 .footer > .container {
   display: flex;
   align-items: baseline;
-  position: relative;
 }
 
 .footer-address > .logo {
@@ -513,9 +512,7 @@ textarea {
 
 /* Форма футера */
 .footer-form {
-  position: absolute;
-  top: 12px;
-  right: 15px;
+  margin-left: auto;
 }
 
 .icon-send {
@@ -759,6 +756,9 @@ textarea {
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+.form-field:nth-child(-n + 4) {
   margin-bottom: 10px;
 }
 
